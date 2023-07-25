@@ -6,34 +6,37 @@
 }
 
 body {
-	background-color: var(--cinza-fundo);
+  background-color: var(--cinza-fundo);
+	box-sizing: border-box;
 	font-family: var(--font);
 	height: 1000px;
   margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
-p, h1, h2, h3, span {
+p, 
+h1, 
+h3, 
+span {
   margin: 0;
 }
 
 header {
-	display: flex;
 	align-items: center;
+	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	gap: 50px;
+	justify-content: center;
   margin-top: 50px;
 }
 
 nav {
-	display: flex;
 	align-items: center;
-	justify-content: center;
+	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 50px;
 	gap: 20px;
+	justify-content: center;
+	margin-bottom: 50px;
 }
 
 nav a, .info a {
@@ -45,21 +48,31 @@ nav a, .info a {
 	text-transform: uppercase;
 }
 
-.card-info {
+main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 950px;
   margin: 0 auto;
+  max-width: 1000px;
+}
+
+.line {
+  background-color: var(--vermelho);
+  height: 3px;
+  left: 475px;
+  position: absolute;
+  top: 30px;
+  width: 50px;
 }
 
 .info {
-  text-align: right;
-  padding: 40px;
+  align-content: center;
+  background-color: white;
   display: grid;
   gap: 20px;
-  align-content: center;
+  padding: 40px;
   place-items: end;
-  background-color: white;
+  position: relative;
+  text-align: right;
 }
 
 .info a {
@@ -67,35 +80,36 @@ nav a, .info a {
   color: white;
 }
 
-.bike-img {
+.photo-bike {
   width: 100%;
 }
 
-.title-advantages {
-  padding: 40px;
-  font-size: 60px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: rgba(0, 0, 0, 0.2);
-  text-align: right;
+.title {
   align-self: center;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 60px;
+  font-weight: 600;
+  padding: 40px;
+  text-align: right;
+  text-transform: uppercase;
 }
 
-.card-advantages {
+.advantages {
   background-color: white;
-  padding: 40px;
   display: flex;
-  gap: 20px;
   flex-direction: column;
+  gap: 20px;
+  padding: 40px;
 }
 
 .item {
-  display: flex;
   align-items: flex-start;
+  display: flex;
   gap: 20px;
 }
 
 .item .title {
+  font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
@@ -105,17 +119,17 @@ nav a, .info a {
 }
 
 .item .text {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 10px;
 }
 
 footer {
-  margin-top: 50px;
   background-color: white;
-  padding: 45px;
   box-sizing: border-box;
+  margin-top: 50px;
+  padding: 45px;
   width: 100%;
 }
 

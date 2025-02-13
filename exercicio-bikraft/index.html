@@ -1,5 +1,10 @@
+<!-- 
+-Substituir o span decorativo
+Pelo pseudo element ideal -->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,6 +12,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Bikraft</title>
   </head>
+
   <body>
     <header>
       <img src="./assets/bikcraft.svg" alt="Bikraft logo" />
@@ -18,49 +24,60 @@
       </nav>
     </header>
     <main>
-      <div class="info">
-        <span class="line"></span>
+      <section class="info">
+        <!-- <span class="line"></span> -->
         <h1>Bicicletas Feitas a Mão</h1>
         <p>
           A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela
           vem equipada com os melhores acessórios da marca.
         </p>
-        <a href="#">Ver mais</a>
-      </div>
-      <img class="photo-bike" src="./assets/bicicleta.jpg" alt="Nimbus Stark" />
-      <span class="title">Vantagens Bikcraft</span>
-      <div class="advantages">
-        <div class="item">
-          <img src="./assets/eletrica.svg" alt="" />
+        <button>Ver mais</button>
+      </section>
+      <figure>
+        <img class="photo-bike" src="./assets/bicicleta.jpg" alt="Nimbus Stark" />
+      </figure>
+      <section class="advantagesTitle">
+        <span class="title">Vantagens Bikcraft</span>
+      </section>
+      <section class="advantages">
+        <article class="item">
+          <figure>
+            <img src="./assets/eletrica.svg" alt="" />
+          </figure>
           <div class="text">
             <h3>Motor Elétrico</h3>
             <p class="description">
               Permite você viajar distâncias inimagináveis com sua bike.
             </p>
           </div>
-        </div>
-        <div class="item">
-          <img src="./assets/velocidade.svg" alt="" />
+        </article>
+        <article class="item">
+          <figure>
+            <img src="./assets/velocidade.svg" alt="" />
+          </figure>
           <div class="text">
             <h3>40 km/h</h3>
             <p class="description">
               A mais rápida bicicleta elétrica disponível hoje no mercado.
             </p>
           </div>
-        </div>
-        <div class="item">
-          <img src="./assets/rastreador.svg" alt="" />
+        </article>
+        <article class="item">
+          <figure>
+            <img src="./assets/rastreador.svg" alt="" />
+          </figure>
           <div class="text">
             <h3>Rastreador</h3>
             <p class="description">
               Rastreador e sistema anti-furto para garantir o seu sossego.
             </p>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </main>
     <footer>
       <p>Bikcraft. Alguns Direitos Reservados.</p>
     </footer>
   </body>
+
 </html>

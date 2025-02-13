@@ -9,11 +9,14 @@
 <p>Veja alguns dos exercícios que fiz até o momento:</p>
 <br />
 
-<p align="center">Exercício 1 <a href="https://exercicio-bikraft.netlify.app/">(Acesse aqui)</a></p>
+<p align="center">Exercício 1 - Bikraft <a href="https://exercicio-bikraft.netlify.app/">(Acesse aqui)</a></p>
 <p align="center">Aprendizado de Flexbox/Grid</p>
 <p align="center">
   <img width="800" src="https://github.com/luysla/html-css-origamid/assets/19508155/68a0cc19-42f6-4ffd-8234-9b337df79f02)https://github.com/luysla/html-css-origamid/assets/19508155/68a0cc19-42f6-4ffd-8234-9b337df79f02">
 </p>
 
-
-
+<p align="center">Exercício 2 - Portfólio <a href="https://dyanaportfolio.netlify.app/">(Acesse aqui)</a></p>
+<p align="center">Aprendizado de Flexbox/Grid</p>
+<p align="center">
+  <img width="800" src="https://github.com/user-attachments/assets/368e7616-33f3-45a1-a873-d8da665d2b6d">
+</p>
